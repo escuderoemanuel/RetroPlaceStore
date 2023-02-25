@@ -44,7 +44,7 @@ _In the browser, go to the following path_
 
 - [VideoLoom] (https://www.loom.com/share/0535628c1ece45a492965178aabe671c)
 
-### Deployment sith
+### Deployment with
 
 ---
 
