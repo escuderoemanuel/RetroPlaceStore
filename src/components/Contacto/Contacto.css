@@ -1,0 +1,29 @@
+/* FORM CONTACTO*/
+.formContainer {
+  margin: 7rem auto 10rem;
+  width: 500px;
+  max-width: 90vw;
+  text-align: end;
+}
+
+label,
+.btnForm {
+  font-size: 0.8em;
+  font-weight: lighter;
+  margin-right: 0.5rem;
+}
+
+.input,
+textarea {
+  background-color: rgb(237, 237, 238);
+  text-align: end;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.errorMessage {
+  font-size: 0.7em;
+  color: coral;
+  margin: -0.3rem 0.5rem 0 0;
+  font-style: italic;
+}

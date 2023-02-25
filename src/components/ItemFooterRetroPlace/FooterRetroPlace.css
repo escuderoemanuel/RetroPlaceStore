@@ -1,0 +1,16 @@
+/* Footer RetroPlace */
+.footerRetroPlace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconFooterRetroPlace {
+  width: 32px;
+  margin: 0.5rem;
+}
+
+.iconFooterRetroPlace:hover {
+  transform: translateY(-5px);
+  transition: all 300ms linear;
+}

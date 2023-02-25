@@ -1,0 +1,17 @@
+/* Productos ItemDetail */
+.itemDetail {
+  margin-top: 6rem;
+  margin-bottom: 6.5rem;
+}
+
+.card /* Cada Card */ {
+  width: 18rem;
+  padding: 0;
+  background-color: transparent;
+}
+
+.cardProductos /* El div que contiene todas las cards */ {
+  margin: 6rem 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}

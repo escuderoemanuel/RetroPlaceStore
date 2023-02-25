@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BOTONES PERSONALIZADOS */
+.btnPersonalizado,
+.btnPersonalizadoMid {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  padding: 0.4rem;
+  color: whitesmoke;
+  background-color: rgb(255, 156, 145);
+  border: none;
+}
+
+.btnPersonalizado:hover {
+  background-color: salmon;
+}
+
+.btnPersonalizado:active {
+  /* REPARAR ESTO */
+  background-color: rgb(255, 156, 145);
+}
+
+.btnPersonalizadoMid {
+  width: max-content;
+  background-color: #ededee;
+  color: grey;
+  display: flex;
+  font-size: 0.8em;
+}
+
+.btnPersonalizadoMid:hover,
+.btnPersonalizadoMin:hover {
+  background-color: #dcdcdc;
+}
+
+.btnPersonalizadoMin {
+  width: 22px;
+  height: 22px;
+  color: grey;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* DARKMODE */
+.darkMode {
+  background-color: #252525;
+  color: whitesmoke;
+  font-weight: lighter;
+}

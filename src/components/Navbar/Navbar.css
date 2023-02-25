@@ -1,0 +1,123 @@
+/* Navbar */
+.nav {
+  background-color: rgba(226, 226, 226, 0.9);
+  padding: 0.3rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.darkModeClass {
+  background-color: rgba(226, 226, 226, 0.6);
+  padding: 0.5rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+/* Logo */
+.logotype {
+  height: 50px;
+  margin-right: 2rem;
+}
+
+/* Cart */
+.cartIcon {
+  color: rgb(255, 156, 145);
+  font-size: 24px;
+}
+
+.btnCart {
+  display: flex;
+  position: relative;
+}
+
+.btnCart:hover {
+  transform: scale(1.03) rotate(2deg);
+  transition: all 100ms ease;
+}
+
+.numberCart {
+  font-weight: bold;
+  color: rgb(255, 156, 145);
+  background-color: whitesmoke;
+  padding: 0.05rem;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  border: 0.02px solid rgb(255, 156, 145);
+}
+
+/* Botones: */
+.linkBtn, /* Inicio - Contacto - Productos  */
+.itemProductos /* Remeras - Gorras - Tazas  */ {
+  color: #3e3f3a;
+  background-color: transparent;
+  border: none;
+
+  text-transform: uppercase;
+}
+
+.linkBtn:hover, /* Inicio - Contacto - Productos  */
+.itemProductos:hover /* Remeras - Gorras - Tazas  */ {
+  background-color: transparent;
+  color: #bd3abe;
+  font-style: italic;
+  font-weight: bolder;
+  transition: all 100ms ease;
+}
+
+.linkBtn:active, /* Inicio - Contacto - Productos  */
+.itemProductos:active /* Remeras - Gorras - Tazas  */ {
+  transform: scale(0.95);
+  transition: all ease-in-out 100ms;
+  background-color: transparent;
+  border: none;
+}
+
+/* Productos Menu Desplegable */
+.dropdown-menu {
+  background-color: rgba(237, 237, 238, 0.6);
+  border: none;
+  padding: 0rem;
+}
+
+.productosMenu {
+  display: flex;
+  align-items: center;
+}
+
+.productosItem::after {
+  color: #3e3f3a;
+  font-size: 1rem;
+}
+
+/* Componente: ItemCounter */
+.itemCount {
+  text-align: center;
+  width: 100px;
+  background-color: transparent;
+  border: solid 2px #3e3f3a;
+  border-radius: 5px;
+}
+
+.btnCount {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  color: grey;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.btnCount:hover {
+  background-color: transparent;
+  color: #3e3f3a;
+  font-weight: bolder;
+}
