@@ -22,3 +22,7 @@
   transition: all 200ms linear;
   color: #3e3f3a;
 }
+
+.logoDev {
+  width: 40px;
+}
