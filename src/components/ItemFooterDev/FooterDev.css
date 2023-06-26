@@ -8,8 +8,8 @@
   align-items: center;
 }
 
-.rightsFooter {
-  margin: 0.5rem 0 0 0;
+.footerDeveloper p {
+  margin: 0.5rem 0 ;
 }
 
 .developerLink {
