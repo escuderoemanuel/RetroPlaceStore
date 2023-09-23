@@ -1,5 +1,8 @@
 # RetroPlace Store
 
+![Project Poster](https://i.ibb.co/3S3366B/retroplace.jpg)
+
+
 ##### E-commerce Project
 
 _Final project for the ReactJs course at CoderHoouse - Commission 39530_
