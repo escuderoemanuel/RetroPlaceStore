@@ -11,7 +11,7 @@ _Final project for the ReactJs course at CoderHoouse - Commission 39530_
 
 - Github Repository (https://github.com/escuderoemanuel/RetroPlaceStore.git)
 - Author: Emanuel Escudero
-- Developer's portfolio: (https://escuderoemanuel.github.io/Portfolio/)
+- Developer's portfolio: (https://emanuelescudero.ar)
 
 ### Requirements
 
