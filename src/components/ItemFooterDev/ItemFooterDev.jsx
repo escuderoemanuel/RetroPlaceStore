@@ -13,7 +13,7 @@ export const ItemFooterDev = () => {
         rel='noopener noreferrer'>
         <img
         className='logoDev'
-        src='https://i.ibb.co/ZT13Snc/Logo2023.png'
+        src='https://i.ibb.co/L5M5KFP/Logo2024.png'
         alt='Logo del Desarrollador'
       />
       </a>
