@@ -1,6 +1,6 @@
 /* Navbar */
 .nav {
-  background-color: rgba(226, 226, 226, 0.9);
+  background-color: rgb(226, 226, 226);
   padding: 0.3rem 1rem;
   position: fixed;
   width: 100%;
@@ -9,7 +9,7 @@
 }
 
 .darkModeClass {
-  background-color: rgba(226, 226, 226, 0.6);
+  background-color: rgb(226, 226, 226);
   padding: 0.5rem 1rem;
   position: fixed;
   width: 100%;
@@ -82,7 +82,7 @@
 
 /* Productos Menu Desplegable */
 .dropdown-menu {
-  background-color: rgba(237, 237, 238, 0.6);
+  background-color: rgb(237, 237, 238);
   border: none;
   padding: 0rem;
 }

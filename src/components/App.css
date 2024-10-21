@@ -63,3 +63,7 @@ body {
   color: whitesmoke;
   font-weight: lighter;
 }
+
+.cardProductos {
+  padding-bottom: 5rem;
+}

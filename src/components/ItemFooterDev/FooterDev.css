@@ -3,26 +3,27 @@
   border-top: gray 1px solid;
   width: 80%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .footerDeveloper p {
-  margin: 0.5rem 0 ;
+  margin: 1rem 0;
 }
 
 .developerLink {
   text-decoration: none;
-  color: gray;
-}
-
-.developerLink:hover {
-  transform: scale(1.02);
-  transition: all 200ms linear;
-  color: #3e3f3a;
+  display: flex;
 }
 
 .logoDev {
-  width: 40px;
+  transition: all 200ms ease;
+  margin-left: .5rem;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.logoDev:hover {
+  transform: scale(1.05) rotate(7deg);
 }
